@@ -1,13 +1,25 @@
 import React, { useState } from "react";
+import Navigation from "./Navigation";
 
 const Header = (prots) => {
   const [isPublished, togglePublished] = useState(false);
   return (
     <header>
-      <div id="loading-bg" className="bigger">
-        <nav className="navigation"></nav>
-        <div id="overlay"></div>
-        <div className="hamburger-menu"></div>
+      <div className="smaller">
+        <div id="loading-bg" className="bigger">
+          <Navigation />
+          <div id="overlay">
+            <div className="overlay-inner"></div>
+          </div>
+          <div className="hamburger-menu">
+            <a href="" className="menu-trigger">
+              <span className="bigger"></span>
+              <span className="bigger"></span>
+              <span className="bigger"></span>
+              <p>MENU</p>
+            </a>
+          </div>
+        </div>
       </div>
     </header>
   );

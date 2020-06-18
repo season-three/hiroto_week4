@@ -10,6 +10,16 @@ body {
   margin: 0 auto;
 }
 
+li {
+  padding-left: 0px;
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
 .visual {
   height: 500px;
 }
@@ -25,15 +35,15 @@ body {
   margin: auto;
 }
 
-.content .contents-inner .works {
+.works {
   padding: 104px 0 72px;
 }
 
-.content .contents-inner .works .contents-title {
+.works .contents-title {
   padding: 0 5.5% 4vh;
 }
 
-.content .contents-inner .works .contents-title h2 {
+.works .contents-title h2 {
   text-align: center;
   font-size: 2.8rem;
   color: #222;
@@ -44,7 +54,7 @@ body {
   font-family: "Josefin Sans";
 }
 
-.content .contents-inner .works .contents-title h2:after {
+.contents-title h2:after {
   position: relative;
   top: 24px;
   width: 80px;
@@ -55,7 +65,7 @@ body {
   border-bottom: 3px solid #222;
 }
 
-.content .contents-inner .works .contents-description {
+.contents-description {
   padding: 2vh 0 4vh;
   max-width: 800px;
   margin: 0 auto;
@@ -63,15 +73,42 @@ body {
 }
 
 .visual-area {
-  height: 400px;
 }
 
 .game-section {
   padding-top: 2vh;
 }
 
+.visual-area-inner {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 3.3%;
+  text-align: left;
+}
+
+.visual-list {
+  max-width: 100%;
+  letter-spacing: -0.4em;
+  text-align: left;
+}
+
+.visual-list li {
+  max-width: 28.2%;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: normal;
+  margin: 2.5%;
+  position: relative;
+}
+
+.animated {
+  height: 10vh;
+  width: 100%;
+  background-color: silver;
+}
+
 .web-section {
-  padding-top: 4vh;
+  padding-top: 13vh;
   display: block;
   background: #fff;
 }
@@ -80,4 +117,24 @@ body {
   padding: 4vh 0 0;
   display: block;
   background: #fff;
+}
+
+.footer {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  font-size: 1.5rem;
+  font-size: 15px;
+  font-family: "Ubuntu";
+  padding: 64px 0;
+  margin-top: 170px;
+}
+
+.footer-sns {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
 }
