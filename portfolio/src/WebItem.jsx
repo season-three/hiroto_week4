@@ -13,7 +13,10 @@ class WebItem extends React.Component {
         <a href={this.props.link} className="popular">
           {" "}
           <figure>
-            <img className="visual-inner-txt" src={this.props.image} />
+            <img className="visual-image" src={this.props.image} />
+            <div className="visual-inner-txt">
+              <span>DETAIL</span>
+            </div>
           </figure>
           <div className="visual-txt-area">
             <div className="visual-title">{this.props.title}</div>

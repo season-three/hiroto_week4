@@ -11,7 +11,7 @@ const Footer = (props) => {
         <div className="contents-inner">
           <article className="works">
             <header className="contents-title">
-              <h2>WORKS</h2>
+              <h2>Works in Hamamathu</h2>
             </header>
             <section className="contents-description  delay-02 slideInUp">
               <p>

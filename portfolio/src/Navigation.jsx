@@ -27,11 +27,11 @@ const Navigation = (props) => {
   return (
     <nav className="navigation">
       <ul className="globalnavi">
-        {NavigationList.map((NavigationItem) => {
+        {/* {NavigationList.map((NavigationItem) => {
           return (
             <Navigation link={NavigationItem.link} name={NavigationItem.name} />
           );
-        })}
+        })} */}
       </ul>
     </nav>
   );

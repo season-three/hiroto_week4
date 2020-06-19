@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 const Header = (prots) => {
   const [isPublished, togglePublished] = useState(false);
   return (
-    <header>
+    <header id="menu">
       <div className="smaller">
         <div id="loading-bg" className="bigger">
           <Navigation />

@@ -6,22 +6,22 @@ const GameSection = (props) => {
   const gameSectionList = [
     {
       link: "https://works/bokures3_game/",
-      // image:
-      // "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/bkrs3_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/bkrs3_thum.jpg",
       title: "ぼくのレストラン3 & 3DX",
       caption: "アプリ",
     },
     {
       link: "https://works/game_event_ui/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/social_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/social_thum.jpg",
       title: "ソーシャルゲーム 画面",
       caption: "アプリ",
     },
     {
       link: "https://works/game_effect/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/effect_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/effect_thum.jpg",
       title: "ゲームエフェクト",
       caption: "ゲーム",
     },

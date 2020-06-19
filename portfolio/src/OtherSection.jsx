@@ -7,43 +7,43 @@ const OtherSection = (prots) => {
   const OtherSectionList = [
     {
       link: "https://works/business-card/",
-      // image:
-      // "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/business-card_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/business-card_thum.jpg",
       title: "MY名刺",
       caption: "名刺",
     },
     {
       link: "https://works/ayaya-touhou/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/ayaya_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/ayaya_thum.jpg",
       title: "東方 射命丸文",
       caption: "イラスト",
     },
     {
       link: "https://works/illust-rs/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/rockbuke_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/rockbuke_thum.jpg",
       title: "ロマサガ2 ロックブーケ",
       caption: "イラスト",
     },
     {
       link: "https://works/illust-gbf/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/kumuyu_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/kumuyu_thum.jpg",
       title: "グラブル クムユ",
       caption: "イラスト",
     },
     {
       link: "https://works/illust-touhou/",
-      // image:
-      //   "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/rockbuke_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/rockbuke_thum.jpg",
       title: "東方 アリス",
       caption: "イラスト",
     },
     {
       link: "https://works/illust-jojo/",
-      // image:
-      //   "ttps://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/dio_thum.jpg",
+      image:
+        "https://yugo-k.work/wp-content/themes/portfolio_blog/images/thumbnail/rockbuke_thum.jpg",
       title: "ジョジョ DIO",
       caption: "イラスト",
     },
