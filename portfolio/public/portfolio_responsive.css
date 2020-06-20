@@ -1,0 +1,38 @@
+@media screen and (max-width: 959px) and (min-width: 560px) {
+  .works {
+    padding: 72px 0 32px;
+  }
+  .contents-description {
+    padding: 0 6% 0;
+    text-align: left;
+  }
+
+  /* 画像を2列にするよ */
+  .visual-list li {
+    max-width: 45%;
+    margin: 2.5% 2.5% 5%;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .works {
+    padding: 52px 0 24px;
+  }
+
+  .contents-description {
+    padding: 2vh 6% 0;
+    text-align: left;
+  }
+
+  .visual-area-inner {
+    max-width: 84%;
+    text-align: center;
+  }
+
+  .visual-list li {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto 6vh;
+  }
+}
