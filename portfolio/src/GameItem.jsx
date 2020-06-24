@@ -1,6 +1,4 @@
-// import React, { useState } from "react";
 import React from "react";
-import GameSection from "./GameSection";
 
 class GameItem extends React.Component {
   constructor(props) {

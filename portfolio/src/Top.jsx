@@ -1,17 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 import Visual from "./Visual";
+import About from "./about";
 
 const Top = (prots) => {
-  const [isPublished, togglePublished] = useState(false);
   return (
     <div id="top">
-      <Header />
-      <Visual />
-      <Main />
-      <Footer />
+      <div>
+        <h1>Welcome</h1>
+        <p>
+          <Link to="/about">About</Link>
+        </p>
+
+        <Header />
+        <Visual />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 };

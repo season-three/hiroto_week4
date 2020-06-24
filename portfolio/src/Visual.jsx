@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TopArea from "./TopArea";
 
 const Visual = (prots) => {
-  const [isPublished, togglePublished] = useState(false);
+  // const [isPublished, togglePublished] = useState(false);
   return (
     <div>
       <div className="top-visual">

@@ -1,11 +1,21 @@
-import React, { useState } from "react";
 import GameItem from "./GameItem";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import Top from "./Top";
 
 const GameSection = (props) => {
-  const [isPublished, togglePublished] = useState(false);
+  // const GameSection = () => {
+  //   return (
+  //     <BrowserRouter>
+  //       <div>
+  //         <Route path="/about" component={About} />
+  //       </div>
+  //     </BrowserRouter>
+  //   );
+  // };
   const gameSectionList = [
     {
-      link: "https://works/bokures3_game/",
+      link: "/about",
       image: "operaCompatition.jpeg",
       title: "静岡国際オペラコンクール",
       caption: "",

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import WebItem from "./WebItem";
 
 const WebSection = (prots) => {
-  const [isPublished, togglePublished] = useState(false);
   const WebSectionList = [
     {
       link: "https://works/design/",

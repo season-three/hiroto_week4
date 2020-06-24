@@ -18,8 +18,14 @@ li {
 ul {
   padding-left: 0px;
   list-style: none;
+  text-decoration: none;
 }
 
+.overlay-navi ul {
+  padding-left: 0px;
+  list-style: none;
+  text-decoration: none;
+}
 figure {
   margin: 0;
   /* padding: 0; */
@@ -33,8 +39,6 @@ figure {
 }
 
 .top-visual {
-  height: 650px;
-  background-color: cornsilk;
 }
 
 .top-bg_1 {
@@ -264,4 +268,17 @@ figure {
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+#router {
+}
+.routertext {
 }
