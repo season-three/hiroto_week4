@@ -4,15 +4,6 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import Top from "./Top";
 
 const GameSection = (props) => {
-  // const GameSection = () => {
-  //   return (
-  //     <BrowserRouter>
-  //       <div>
-  //         <Route path="/about" component={About} />
-  //       </div>
-  //     </BrowserRouter>
-  //   );
-  // };
   const gameSectionList = [
     {
       link: "/about",
